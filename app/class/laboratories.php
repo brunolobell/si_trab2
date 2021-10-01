@@ -1,9 +1,9 @@
 <?php
-  class Laboratories {
+  class Laboratory {
     public $name, $address, $phone, $email, $CNPJ;
     private $password;
 
-    function __construct($name, $address, $phone, $email, $CNPJ,$password){
+    function __construct($name, $address, $phone, $email, $CNPJ, $password){
       $this->name = $name;
       $this->address = $address;
       $this->phone = $phone;
